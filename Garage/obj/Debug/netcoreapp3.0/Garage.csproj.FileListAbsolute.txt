@@ -1,0 +1,11 @@
+C:\Users\Elev\source\repos\Garage\Garage\bin\Debug\netcoreapp3.0\Garage.exe
+C:\Users\Elev\source\repos\Garage\Garage\bin\Debug\netcoreapp3.0\Garage.deps.json
+C:\Users\Elev\source\repos\Garage\Garage\bin\Debug\netcoreapp3.0\Garage.runtimeconfig.json
+C:\Users\Elev\source\repos\Garage\Garage\bin\Debug\netcoreapp3.0\Garage.runtimeconfig.dev.json
+C:\Users\Elev\source\repos\Garage\Garage\bin\Debug\netcoreapp3.0\Garage.dll
+C:\Users\Elev\source\repos\Garage\Garage\bin\Debug\netcoreapp3.0\Garage.pdb
+C:\Users\Elev\source\repos\Garage\Garage\obj\Debug\netcoreapp3.0\Garage.csprojAssemblyReference.cache
+C:\Users\Elev\source\repos\Garage\Garage\obj\Debug\netcoreapp3.0\Garage.AssemblyInfoInputs.cache
+C:\Users\Elev\source\repos\Garage\Garage\obj\Debug\netcoreapp3.0\Garage.AssemblyInfo.cs
+C:\Users\Elev\source\repos\Garage\Garage\obj\Debug\netcoreapp3.0\Garage.dll
+C:\Users\Elev\source\repos\Garage\Garage\obj\Debug\netcoreapp3.0\Garage.pdb
