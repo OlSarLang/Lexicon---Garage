@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Garage
@@ -101,6 +102,8 @@ namespace Garage
             while (running)
             {
                 UI.Clear();
+                PrintG(garage);
+
                 UI.MSG($"This is the garage {garage.Name} with the capacity {garage.Occupancy}/{garage.Capacity}");
                 if (garage.Occupancy == 0)
                 {
@@ -223,6 +226,13 @@ namespace Garage
 
         public void RemoveVehicleFromGarage(Garage<Vehicle> garage)
         {
+          var result =   garage.GroupBy(v => v.GetType().Name)
+                .Select(v => new
+                {
+                    VName = v.Key,
+                    Num = v.Count()
+                }).ToList();
+
             int input = UI.AskForInt();
             try
             {
@@ -275,6 +285,18 @@ namespace Garage
                         break;
                 }
             }
+        }
+
+        public void PrintG(Garage<Vehicle> garage)
+        {
+            var result = garage.GroupBy(v => v.GetType().Name)
+                .Select(v => new
+                {
+                    VName = v.Key,
+                    Num = v.Count()
+                }).ToList();
+
+            result.ForEach(r => Console.WriteLine($"Type: {r.VName}, Num: {r.Num}"));
         }
 
         public void AddVehicleToGarage(Garage<Vehicle> garage)

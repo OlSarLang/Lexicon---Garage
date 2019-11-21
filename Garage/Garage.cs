@@ -71,6 +71,7 @@ namespace Garage
 
         }
 
+
         public int GetParkingSpot(Vehicle v)
         {
             return Array.IndexOf(Vehicles, v) + 1;
